@@ -17,24 +17,17 @@ The project consists of implementing the following functionalities for both BST 
 ## Usage
 
 1. Clone this repository to your local machine.
-2. Navigate to the directory containing the source code files (`redblacktree.cpp` and `bst.cpp`).
+2. Navigate to the directory containing the source code files (`main.cpp`).
 3. Compile the source code files using a C++ compiler (e.g., g++):
 
     ```
-    g++ redblacktree.cpp -o redblacktree
-    g++ bst.cpp -o bst
+    g++ main.cpp -o main
     ```
 
 4. Run the compiled executables with the dataset file name and output file name as arguments:
 
-    For Red-Black Tree:
     ```
-    ./redblacktree <DATASET_FILE_NAME>.csv rb_out.csv v
-    ```
-
-    For Binary Search Tree:
-    ```
-    ./bst <DATASET_FILE_NAME>.csv bst_out.csv v
+    ./main <DATASET_FILE_NAME>.csv out.csv v
     ```
 
     The `v` argument is optional for verbose output.
